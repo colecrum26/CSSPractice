@@ -1,12 +1,29 @@
+body {
+    color: cornflowerblue;
+}
+
+
 h1 {
     color: firebrick;
 }
-
-div p {color: bisque;}
-
-div > p {
-    color: olivedrab;
+.whatever{
+    color: green; 
+    font-size: 25px;
 }
-p {
-    color: blue;
+#nestPara{
+    color: magenta;
+    font-size: 15px;
+    padding: auto;
+    border: 10px solid black;
+    margin: auto;
+}
+
+.list{
+    padding: 5em;
+    border: 2em dotted olivedrab;
+    margin: 5em;
+}
+
+li::marker{
+    color: cornflowerblue;
 }
