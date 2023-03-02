@@ -1,6 +1,9 @@
 h1 {
     color: firebrick;
 }
+
+div p {color: bisque;}
+
 div > p {
     color: olivedrab;
 }
